@@ -4,11 +4,11 @@
         <p>2.请选择您的兴趣爱好</p>
         <!--<p>{{this.$store.state.user[0].sex}}</p>-->
         <form>
-        <input type="checkbox"  name="love" value="看书" v-model="love"/>看书
+        <input type="checkbox"  name="love" value="看" v-model="love"/>看
         <input type="checkbox"  name="love" value="游泳"  v-model="love"/>游泳
         <input type="checkbox"  name="love" value="跑步"  v-model="love"/>跑步
-        <input type="checkbox"  name="love" value="看电影"  v-model="love"/>看电影
-        <input type="checkbox"  name="love" value="听音乐"  v-model="love"/>听音乐
+        <input type="checkbox"  name="love" value="电影"  v-model="love"/>电影
+        <input type="checkbox"  name="love" value="音乐"  v-model="love"/>音乐
         <input type="checkbox"  name="love" value="动漫"  v-model="love"/>动漫
         </form>
         <button @click="doClick()">下一步</button>
